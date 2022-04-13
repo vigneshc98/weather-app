@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+body{
+    font-family: arial;
+    width: 80%;
+    margin:  0 auto;
+}
+
+header{
+    margin-top: 3rem;
+}
+
+footer{
+    border-top: 1px solid black;
+    margin-top: 5rem;
+    font-size: .9rem;
+    position:fixed;
+}
+
+input{
+    width: 14rem;
+    height: 2rem;
+    text-align: center;
+    background-color: rgb(219, 219, 219);
+    border: none;
+}
+button{
+    height: 2rem;  
+    width: 4rem; 
+    border: none;
+    cursor: pointer;
+    background-color: rgb(205, 147, 147);
+}
+
+.indexContainer{
+    margin-top: 2.5rem;
+}
+
+.addressPtag{
+    margin-top: 2rem;
+}
