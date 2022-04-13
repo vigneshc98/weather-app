@@ -9,7 +9,7 @@ form.addEventListener('submit',(e)=>{
     const address = document.querySelector('#address').value;
     perror.textContent=''
     presult.textContent='loading...'
-    fetch(`http://localhost:3000/weather?address=${address}`).then((response)=>{
+    fetch(`/weather?address=${address}`).then((response)=>{
     response.json().then((data)=>{
         if(data.error){
             presult.innerHTML=''
@@ -25,3 +25,5 @@ form.addEventListener('submit',(e)=>{
     })
    })
 })
+
+// http://localhost:3000
