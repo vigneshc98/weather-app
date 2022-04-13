@@ -74,6 +74,6 @@ app.get('*',(req,res)=>{
     res.render('error');
 })
 
-app.listen(3000,()=>{
+app.listen(port,()=>{
     console.log('server is up on port 3000');
 })
