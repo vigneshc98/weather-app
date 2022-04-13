@@ -1,0 +1,26 @@
+{
+  "name": "web-servers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vigneshc98/weather-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vigneshc98/weather-app/issues"
+  },
+  "homepage": "https://github.com/vigneshc98/weather-app#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "express": "^4.17.3",
+    "hbs": "^4.2.0",
+    "postman-request": "^2.88.1-postman.31",
+    "request": "^2.88.2"
+  }
+}
